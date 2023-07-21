@@ -1,0 +1,58 @@
+section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+
+    padding: 30px;
+
+    & h1 {
+        color: $color-texto2;
+        background-position: center;
+        padding: 1rem;
+    }
+}
+
+main {
+    display: grid;
+    text-align: center;
+    color: $color-texto2;
+    padding: 20px;
+}
+
+.pagos {
+    padding: 250px 12 px;
+    display: grid;
+    text-align: center;
+    color: $color-texto2 ;
+
+    & h2 {
+        padding: 20px;
+        font-size: 1.7em;
+    }
+}
+
+.ropa {
+    display: grid;
+    color:$color-texto2;
+    padding: 30px;
+    text-align: center;
+
+    & h2 {
+        padding: 150px 12 px;
+    }
+
+    & .container {
+        background-position: center;
+        padding: 100px 20px;
+    }
+
+    & .carta {
+        background-position: center center;
+        background-size: cover;
+        padding: 50px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,19 @@
+footer {
+    background-position: center;
+    color: $color-texto2 ;
+
+    & .final {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: first baseline;
+        align-items: flex-end;
+        height: 10vh;
+        min-height: 15px;
+        background-color: rgba(238, 130, 238, 0.712);
+        text-align: center;
+    }
+
+    & p {
+        margin: 0;
+    }
+}

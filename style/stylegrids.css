@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  background-color: rgba(238, 130, 238, 0.712);
+  min-height: 75px;
+  padding: 10px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a img {
+  height: 50px;
+  width: 100px;
+  object-fit: cover;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: flex-end;
+}
+nav ul li {
+  padding: 1rem;
+}
+
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 7px 15px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+  background-color: rgba(238, 130, 238, 0.712);
+}
+
+section {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vh;
+  padding: 30px;
+}
+section h1 {
+  color: black;
+  background-position: center;
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  text-align: center;
+  color: black;
+  padding: 20px;
+}
+
+.pagos {
+  padding: 250px 12 px;
+  display: grid;
+  text-align: center;
+  color: black;
+}
+.pagos h2 {
+  padding: 20px;
+  font-size: 1.7em;
+}
+
+.ropa {
+  display: grid;
+  color: black;
+  padding: 30px;
+  text-align: center;
+}
+.ropa h2 {
+  padding: 150px 12 px;
+}
+.ropa .container {
+  background-position: center;
+  padding: 100px 20px;
+}
+.ropa .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background-position: center;
+  color: black;
+}
+footer .final {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: first baseline;
+  align-items: flex-end;
+  height: 10vh;
+  min-height: 15px;
+  background-color: rgba(238, 130, 238, 0.712);
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=stylegrids.css.map */
